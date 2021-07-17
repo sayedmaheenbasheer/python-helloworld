@@ -30,7 +30,7 @@ def metrics():
 def hello():
     app.logger.info('Main request successfull')
 
-    return "Hello World!"
+    return "<h1>Hello World</h1>"
 
 if __name__ == "__main__":
     ## stream logs to a file
